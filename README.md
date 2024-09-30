@@ -5,3 +5,7 @@ In this project a covid-19 dataset was analysed utilizing Joins, CTE's, Temp Tab
 Link to the covid-19 data source: https://ourworldindata.org/covid-deaths
 
 Link to tableau analysis: https://public.tableau.com/app/profile/danielj8/viz/CovidVisualization_16777499241850/Dashboard1
+
+Project (2): Stock Price Analysis using Spark
+
+In this project, stock data containing Ticker,Date,Closing Price of the Stock Volume, Open, High and Low for about 10 most popular price stocks on NYSE along with popular indexes like QQQ and SPY for 5 years (06/2018 - 05/2023) was analysed utilizing Joins, UDF, Temp Tables, Windows Functions, Aggregate Functions, Creating Views and Converting Data Types. 
