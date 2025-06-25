@@ -1,3 +1,5 @@
+Data Science Portfolio Projects:-
+
 Project (1): Covid-19 SQL Data Exploration
 
 In this project a covid-19 dataset was analysed utilizing Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views and Converting Data Types. This dataset was analysed further subseqently in tableau.
