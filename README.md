@@ -15,3 +15,9 @@ In this project, stock data containing Ticker,Date,Closing Price of the Stock Vo
 Project (3): Sales Mart Advanced Data Analysis
 
 Performed advanced SQL-based analysis on a large sales dataset to uncover key business insights and performance trends. Utilized CTEs, window functions, and data segmentation to calculate core KPIs, analyze sales over time, and identify top customers and products. Developed and deployed customer and product reporting views (gold.report_customers, gold.report_products) to deliver insights on spending behavior, product performance, and customer segmentation. Enabled data-driven decision-making by transforming raw data into analysis-ready outputs.
+
+Project (4): AI Powered Book Discovery Platform
+
+Developed a semantic book recommender using Hugging Face, LangChain, ChromaDB and FAISS to retrieve books based on user queries, emotional tone, and category. Extracted emotions from descriptions using a RoBERTa model and predicted missing genres via zero-shot classification. Deployed an interactive Gradio and streamlit dashboard for real-time personalized recommendations.
+
+Tools & Technologies : Python, Pandas, NumPy, Matplotlib, Seaborn, Hugging Face Transformers, LangChain, ChromaDB, FAISS, Streamlit, Gradio, scikit-learn
