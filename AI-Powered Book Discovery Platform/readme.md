@@ -1,6 +1,6 @@
 AI Powered Book Discovery Platform
 
-Description: Developed an ai powered book discovery platform leveraging RAG to provide personalized book suggestions.
+Description: Developed an AI-powered book discovery platform that provides personalized recommendations using semantic similarity and emotion-based filtering. The system leverages dense vector embeddings and transformers for intelligent, context-aware retrieval and user interaction.
 
 Key Responsibilities:
 
