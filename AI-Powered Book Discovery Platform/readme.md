@@ -1,16 +1,19 @@
 AI Powered Book Discovery Platform
 
-Description: Developed an AI-powered book discovery platform that provides personalized recommendations using semantic similarity and emotion-based filtering. The system leverages dense vector embeddings and transformers for intelligent, context-aware retrieval and user interaction.
-
 Streamlit Demo:
+
 ![image alt](https://github.com/DanielJ8/PortfolioProjects/blob/488cf9c2bcfa80d37c972e8d7bb2df883b0f42a2/AI-Powered%20Book%20Discovery%20Platform/streamlit%20ouput.png)
 
 https://ai-powered-book-discovery-platform-bevxtp6teu6wvrlx5g3kns.streamlit.app/
 
 Gradio Demo:
 
+![image alt](https://github.com/DanielJ8/PortfolioProjects/blob/2545be2cff1b4174f36a4e9b03c0626d4b97a503/AI-Powered%20Book%20Discovery%20Platform/Gradio%20output.png)
+
 
 https://huggingface.co/spaces/Danielj08/AI-Powered-Book-Discovery-Platform
+
+Description: Developed an AI-powered book discovery platform that provides personalized recommendations using semantic similarity and emotion-based filtering. The system leverages dense vector embeddings and transformers for intelligent, context-aware retrieval and user interaction.
 
 Key Responsibilities:
 
