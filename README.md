@@ -21,3 +21,10 @@ Project (4): AI Powered Book Discovery Platform
 Developed a semantic book recommender using Hugging Face, LangChain, ChromaDB and FAISS to retrieve books based on user queries, emotional tone, and category. Extracted emotions from descriptions using a RoBERTa model and predicted missing genres via zero-shot classification. Deployed an interactive Gradio and streamlit dashboard for real-time personalized recommendations.
 
 Tools & Technologies : Python, Pandas, NumPy, Matplotlib, Seaborn, Hugging Face Transformers, LangChain, ChromaDB, FAISS, Streamlit, Gradio, scikit-learn
+
+
+Project (5): Customer Segmentation Model
+
+Developed an end-to-end customer segmentation model using RFM analysis and K-Means clustering on 500K+ UK retail transactions, performing outlier management (IQR), feature scaling, and cluster validation (elbow and silhouette methods)—resulting in 7 actionable customer segments for personalized marketing strategies.
+
+Tools & Technologies : Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
