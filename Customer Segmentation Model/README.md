@@ -72,7 +72,7 @@ Manually grouped high-value outliers into:
 ## 🛠️ Tech Stack
 
 - Python: `Pandas`, `NumPy`, `Scikit-learn`, `Matplotlib`, `Seaborn`  
-- Jupyter Notebook  
+- Google Colab 
 - Excel (Data Source)
 
 ---
