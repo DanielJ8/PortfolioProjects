@@ -52,14 +52,16 @@ High Frequency only → UPSELL
 Both → DELIGHT
 
 📌 Customer Segments
-Cluster	Segment Name	Characteristics	Strategy
-0	RE-ENGAGE	Low M, Low F, High R	Reactivate with win-back campaigns
-1	RETAIN	Mid M, Mid F, Mid R	Loyalty programs, personalized offers
-2	REWARD	High M, High F, Low R	Premium rewards, VIP treatment
-3	NURTURE	Low M, Low F, Low R	Educate and nurture growth
--1	PAMPER	High M, low F	Luxury/seasonal targeting
--2	UPSELL	High F, low M	Product bundling, cross-sells
--3	DELIGHT	High M & F	Hyper-personalized VIP offers
+| Cluster | Segment Name | Characteristics       | Strategy                              |
+| ------- | ------------ | --------------------- | ------------------------------------- |
+| 0       | RE-ENGAGE    | Low M, Low F, High R  | Reactivate with win-back campaigns    |
+| 1       | RETAIN       | Mid M, Mid F, Mid R   | Loyalty programs, personalized offers |
+| 2       | REWARD       | High M, High F, Low R | Premium rewards, VIP treatment        |
+| 3       | NURTURE      | Low M, Low F, Low R   | Educate and nurture growth            |
+| -1      | PAMPER       | High M, low F         | Luxury/seasonal targeting             |
+| -2      | UPSELL       | High F, low M         | Product bundling, cross-sells         |
+| -3      | DELIGHT      | High M & F            | Hyper-personalized VIP offers         |
+
 
 📈 Visualizations
 3D scatter plot of RFM clusters
