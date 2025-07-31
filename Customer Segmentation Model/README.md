@@ -5,7 +5,7 @@ This project performs customer segmentation for a UK-based online retailer using
 Businesses often have thousands of customers with varying purchasing behaviors. Identifying high-value, loyal, or inactive customers helps tailor campaigns, promotions, and customer retention efforts. This project leverages RFM metrics and unsupervised learning to segment the customer base into actionable groups.
 
 🔧 Methodology 
-1. Data Cleaning & Preprocessing
+1)Data Cleaning & Preprocessing
    
   Loaded data from online_retail_II.xlsx
 
@@ -19,7 +19,7 @@ Businesses often have thousands of customers with varying purchasing behaviors. 
   
   Zero or negative Quantity and Price entries
 
-2. Feature Engineering
+2)Feature Engineering
    
   Calculated SalesLineTotal = Quantity × Price
   
@@ -31,23 +31,23 @@ Businesses often have thousands of customers with varying purchasing behaviors. 
   
   Monetary: Total spend
 
-3. Outlier Detection
+3)Outlier Detection
    
   Used IQR method to detect and isolate extreme values in Monetary and Frequency
   
   Outliers were retained and analyzed separately, recognizing their business value
 
-4. Data Scaling
+4)Data Scaling
    
   Scaled features using StandardScaler to normalize value ranges before clustering
 
-6. K-Means Clustering
+5)K-Means Clustering
    
   Used Elbow Method and Silhouette Score to determine optimal k=4 for non-outliers
   
   Applied K-Means clustering and labeled clusters
 
-6. Outlier Grouping
+6)Outlier Grouping
    
   Grouped outliers manually into:
   
