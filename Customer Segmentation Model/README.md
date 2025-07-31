@@ -4,52 +4,52 @@ This project performs customer segmentation for a UK-based online retailer using
 📊 Problem Statement
 Businesses often have thousands of customers with varying purchasing behaviors. Identifying high-value, loyal, or inactive customers helps tailor campaigns, promotions, and customer retention efforts. This project leverages RFM metrics and unsupervised learning to segment the customer base into actionable groups.
 
-🔧 Methodology
+🔧 Methodology 
 1. Data Cleaning & Preprocessing
-Loaded data from online_retail_II.xlsx
+  Loaded data from online_retail_II.xlsx
 
-Removed:
-
-Rows with missing CustomerID
-
-Canceled orders (Invoice starts with 'C')
-
-Invalid StockCode and Invoice formats
-
-Zero or negative Quantity and Price entries
+  Removed:
+  
+  Rows with missing CustomerID
+  
+  Canceled orders (Invoice starts with 'C')
+  
+  Invalid StockCode and Invoice formats
+  
+  Zero or negative Quantity and Price entries
 
 2. Feature Engineering
-Calculated SalesLineTotal = Quantity × Price
-
-Computed RFM metrics:
-
-Recency: Days since last purchase
-
-Frequency: Unique invoice count
-
-Monetary: Total spend
+  Calculated SalesLineTotal = Quantity × Price
+  
+  Computed RFM metrics:
+  
+  Recency: Days since last purchase
+  
+  Frequency: Unique invoice count
+  
+  Monetary: Total spend
 
 3. Outlier Detection
-Used IQR method to detect and isolate extreme values in Monetary and Frequency
-
-Outliers were retained and analyzed separately, recognizing their business value
+  Used IQR method to detect and isolate extreme values in Monetary and Frequency
+  
+  Outliers were retained and analyzed separately, recognizing their business value
 
 4. Data Scaling
-Scaled features using StandardScaler to normalize value ranges before clustering
+  Scaled features using StandardScaler to normalize value ranges before clustering
 
 5. K-Means Clustering
-Used Elbow Method and Silhouette Score to determine optimal k=4 for non-outliers
-
-Applied K-Means clustering and labeled clusters
+  Used Elbow Method and Silhouette Score to determine optimal k=4 for non-outliers
+  
+  Applied K-Means clustering and labeled clusters
 
 6. Outlier Grouping
-Grouped outliers manually into:
-
-High Monetary only → PAMPER
-
-High Frequency only → UPSELL
-
-Both → DELIGHT
+  Grouped outliers manually into:
+  
+  High Monetary only → PAMPER
+  
+  High Frequency only → UPSELL
+  
+  Both → DELIGHT
 
 📌 Customer Segments
 | Cluster | Segment Name | Characteristics       | Strategy                              |
@@ -64,18 +64,18 @@ Both → DELIGHT
 
 
 📈 Visualizations
-3D scatter plot of RFM clusters
-
-Violin plots for feature distributions
-
-Bar charts of customer counts and average RFM values per segment
+  3D scatter plot of RFM clusters
+  
+  Violin plots for feature distributions
+  
+  Bar charts of customer counts and average RFM values per segment
 
 🛠️ Tech Stack
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
-
-Jupyter Notebook
-
-Excel (Data source)
+  Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+  
+  Jupyter Notebook
+  
+  Excel (Data source)
 
 📚 Dataset
 online_retail_II.xlsx from UCI Repository
