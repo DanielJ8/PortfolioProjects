@@ -6,6 +6,7 @@ Businesses often have thousands of customers with varying purchasing behaviors. 
 
 🔧 Methodology 
 1. Data Cleaning & Preprocessing
+   
   Loaded data from online_retail_II.xlsx
 
   Removed:
@@ -19,6 +20,7 @@ Businesses often have thousands of customers with varying purchasing behaviors. 
   Zero or negative Quantity and Price entries
 
 2. Feature Engineering
+   
   Calculated SalesLineTotal = Quantity × Price
   
   Computed RFM metrics:
@@ -30,19 +32,23 @@ Businesses often have thousands of customers with varying purchasing behaviors. 
   Monetary: Total spend
 
 3. Outlier Detection
+   
   Used IQR method to detect and isolate extreme values in Monetary and Frequency
   
   Outliers were retained and analyzed separately, recognizing their business value
 
 4. Data Scaling
+   
   Scaled features using StandardScaler to normalize value ranges before clustering
 
-5. K-Means Clustering
+6. K-Means Clustering
+   
   Used Elbow Method and Silhouette Score to determine optimal k=4 for non-outliers
   
   Applied K-Means clustering and labeled clusters
 
 6. Outlier Grouping
+   
   Grouped outliers manually into:
   
   High Monetary only → PAMPER
